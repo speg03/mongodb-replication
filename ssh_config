@@ -5,7 +5,7 @@ Host node1
   UserKnownHostsFile /dev/null
   StrictHostKeyChecking no
   PasswordAuthentication no
-  IdentityFile /Users/speg03/.vagrant.d/insecure_private_key
+  IdentityFile ~/.vagrant.d/insecure_private_key
   IdentitiesOnly yes
   LogLevel FATAL
 Host node2
@@ -15,7 +15,7 @@ Host node2
   UserKnownHostsFile /dev/null
   StrictHostKeyChecking no
   PasswordAuthentication no
-  IdentityFile /Users/speg03/.vagrant.d/insecure_private_key
+  IdentityFile ~/.vagrant.d/insecure_private_key
   IdentitiesOnly yes
   LogLevel FATAL
 Host node3
@@ -25,6 +25,6 @@ Host node3
   UserKnownHostsFile /dev/null
   StrictHostKeyChecking no
   PasswordAuthentication no
-  IdentityFile /Users/speg03/.vagrant.d/insecure_private_key
+  IdentityFile ~/.vagrant.d/insecure_private_key
   IdentitiesOnly yes
   LogLevel FATAL
