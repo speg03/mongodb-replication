@@ -1,0 +1,24 @@
+{
+    "name": "mongodb-node",
+    "description": "",
+    "json_class": "Chef::Role",
+    "default_attributes": {
+        "mongodb": {
+            "config": {
+                "auth": true,
+                "nohttpinterface": true
+            },
+            "install_method": "10gen",
+            "package_version": "2.4.8-mongodb_1",
+            "replicaset_name": "myapp"
+        }
+    },
+    "override_attributes": {
+    },
+    "chef_type": "role",
+    "run_list": [
+        "recipe[custom-mongodb]"
+    ],
+    "env_run_lists": {
+    }
+}
